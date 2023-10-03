@@ -15,6 +15,7 @@ EXPOSE 8080
 EXPOSE 9090
 
 WORKDIR /home/webgoat
+ENV password=password123
 ENTRYPOINT [ "java", \
    "-Duser.home=/home/webgoat", \
    "-Dfile.encoding=UTF-8", \
