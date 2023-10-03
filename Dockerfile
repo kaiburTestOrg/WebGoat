@@ -16,8 +16,8 @@ EXPOSE 9090
 
 WORKDIR /home/webgoat
 ENV password=password123
-ENV aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-ENV aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+ENV aws_access_key_id='AKIAIOSFODNN7EXAMPLE'
+ENV aws_secret_access_key='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
 ENV aws_default_region=us-west-2
 ENTRYPOINT [ "java", \
    "-Duser.home=/home/webgoat", \
