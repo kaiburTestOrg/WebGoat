@@ -1,3 +1,6 @@
+var aws_access_key_id = 'AKIAIOSFODNN7EXAMPLE'
+var aws_secret_access_key = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
+var aws_default_region = 'us-west-2'
 var app = function() {
 
     var init = function() {
